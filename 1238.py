@@ -16,6 +16,7 @@ for _ in range(m):
     a,b,cost = map(int,read().split())
     graph[a].append((b,cost))
 
+print(graph)
 
 def dijstra(start):
     q = []
