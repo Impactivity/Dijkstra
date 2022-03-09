@@ -35,6 +35,7 @@ for i in range(1,n+1):
 
     dijkstra(i)
 
+# 행 번째 노드에서 -> 열 번째 노드로 이동할 때 가장 먼저 거쳐야할 노드 표시
 for i in range(1,n+1):
     for j in range(1,n+1):
         if i == j :
